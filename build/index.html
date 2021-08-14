@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppLab</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-background font-poppins">
+    <a href="#home" id="button-go-to-home" class="hidden fixed bottom-0 right-0 p-5 bg-background-grey z-50  m-5  rounded-full  flex justify-center items-center">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <div class="container mx-auto px-2 lg:px-0">
+        <header class="px-0 lg:px-20">
+            <nav class="flex flex-row py-5 lg:py-10  justify-between">
+                <img  class="lg:w-auto w-[117px] h-[32px]" alt="applab" src="assets/applab.png" />
+                <div class="hidden lg:flex flex-row space-x-7 items-center">
+                    <a href="#home" class="text-md cursor-pointer hover:text-gray-900 ">Home</a>
+                    <a href="#features" class="text-md cursor-pointer hover:text-gray-900 ">Key Features</a>
+                    <a href="#pricing" class="text-md cursor-pointer hover:text-gray-900 ">Pricing</a>
+                    <a href="#testiminial" class="text-md cursor-pointer hover:text-gray-900 ">Testiminial</a>
+                    <a href="#faq" class="text-md cursor-pointer hover:text-gray-900 ">FAQ</a>
+                    <a href="#download" class="text-md  bg-blue-700 hover:bg-blue-800 text-white rounded-full py-2 px-4">Try For
+                        Free</a>
+                </div>
+                <div class="block lg:hidden cursor-pointer relative">
+                    <img class="w-8 cursor-pointer" id="menu-mobile-button" alt="button menu"
+                        src="assets/button-menu.png" />
+                    <div id="menu-mobile"
+                        class="transition duration-500 ease-in-out hidden h-auto w-52 flex flex-col space-y-4 bg-background-grey absolute rounded-lg right-0  p-5">
+                        <a href="#home" class="text-md cursor-pointer hover:text-gray-900 ">Home</a>
+                        <a href="#features" class="text-md cursor-pointer hover:text-gray-900 ">Key Features</a>
+                        <a href="#pricing" class="text-md cursor-pointer hover:text-gray-900 ">Pricing</a>
+                        <a href="#testiminial" class="text-md cursor-pointer hover:text-gray-900 ">Testiminial</a>
+                        <a href="#faq" class="text-md cursor-pointer hover:text-gray-900 ">FAQ</a>
+                        <a href="#"
+                            class="text-md  bg-blue-700 text-center hover:bg-blue-800 text-white rounded-full py-2 px-4">Try
+                            For
+                            Free</a>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+
+        <section class="w-full flex flex-col lg:flex-row  items-center space-x-60 py-5 px-0 lg:px-20" id="home"
+            style="background-image: url(assets/section-home-background.png); background-repeat: repeat-x; background-position: bottom;">
+            <div class=" w-full lg:w-1/2 ml-0 lg:ml-5">
+                <div class="flex flex-col space-y-3 ">
+                    <div class="bg-background-grey rounded-full  flex flex-row">
+                        <div class="h-10 w-10 rounded-full bg-[#FEAA25] flex flex-col justify-center items-center">
+                            <i class="fas fa-medal text-white"></i>
+                        </div>
+                        <span class="p-2">#1 Editiors Choice app of 2020</span>
+                    </div>
+                    <span class="text-5xl font-semibold text-title">Best app for your modern lifestyle</span>
+                    <span class="text-md py-2 text-description">increase productivity with a simple to-do app. app for
+                        managing your personal budgets.</span>
+                    <div class="flex flex-row space-x-5">
+                        <a href="#" class="text-md bg-blue-700 hover:bg-blue-800 text-white rounded-full py-2 px-4">Try
+                            For
+                            Free</a>
+                        <a href="#" class="text-md text-blue-700 hover:text-blue-800 rounded-full py-2 px-4">Watch demo
+                            video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2 hidden  lg:block ">
+                <div class="flex flex-row justify-center px-20">
+                    <img src="./assets/smartphone.png" alt="smartphone" class="w-64" />
+                </div>
+
+            </div>
+        </section>
+        <div class="flex flex-col w-full divide-y space-y-5 lg:space-y-10 px-0 lg:px-20">
+            <section id="features" class="flex flex-col w-full space-y-5">
+                <div class="flex flex-row justify-center pt-16">
+                    <span class="text-base">Trusted by companies like</span>
+                </div>
+                <div
+                    class="w-full flex flex-col lg:flex-row items-center lg:justify-center space-y-10 space-x-0 lg:space-x-20 lg:space-y-0">
+                    <img class="w-20" alt="brand" src="assets/business/1.png" />
+                    <img class="w-20" alt="brand" src="assets/business/2.png" />
+                    <img class="w-20" alt="brand" src="assets/business/3.png" />
+                    <img class="w-20" alt="brand" src="assets/business/4.png" />
+                </div>
+                <div class="w-full flex flex-col lg:flex-row  space-x-0 space-y-5 lg:space-y-0 lg:space-x-10 pt-16">
+                    <img class="w-[517px]" alt="smartphone" src="assets/smartphone-section-features.png" />
+                    <div class="w-auto lg:w-1/3 flex flex-col space-y-5">
+                        <span class="text-4xl text-title font-semibold">Awesome apps <br class="hidden lg:block" />
+                            features</span>
+                        <span class="text-description text-sm">Increase productivity with a simple to-do app. app for
+                            managing your personal budgets.</span>
+
+                        <div class="flex flex-row space-x-5 items-end pt-10">
+                            <img class="h-16" src="assets/section-features/perfoamnce.png" alt="perfomance" />
+                            <div class="flex flex-col space-y-2">
+                                <span class="text-red-400 font-semibold text-xl">Fast Performance</span>
+                                <span class="text-description text-sm text-nom">Get your blood tests delivered at <br
+                                        class="hidden lg:block" />
+                                    home collect a sample from the <br class="hidden lg:block" />
+                                    news your blood tests.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-row space-x-5 items-end pt-5">
+                            <img class="h-16" src="assets/section-features/prototyping.png" alt="prototyping" />
+                            <div class="flex flex-col space-y-2">
+                                <span class="text-indigo-400 font-semibold text-xl">Prototyping</span>
+                                <span class="text-description text-sm text-nom">Get your blood tests delivered at <br
+                                        class="hidden lg:block" />
+                                    home collect a sample from the<br class="hidden lg:block" />
+                                    news your blood tests.</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-row space-x-5 items-end pt-5">
+                            <img class="h-16" src="assets/section-features/vector.png" alt="vector" />
+                            <div class="flex flex-col space-y-2">
+                                <span class="text-green-400 font-semibold text-xl">Vector Editing</span>
+                                <span class="text-description text-sm text-nom">Get your blood tests delivered at<br
+                                        class="hidden lg:block" />
+                                    home collect a sample from the<br class="hidden lg:block" />
+                                    news your blood tests.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div
+                    class="flex flex-col lg:flex-row justify-center divide-y-0 lg:divide-x-2 lg:divide-y-0 items-center pt-10 ">
+                    <span class="text-title text-2xl font-semibold py-5 pr-0 lg:pr-5">Smart jackpots that <br
+                            class="hidden lg:block" />
+                        you may love this<br class="hidden lg:block" />
+                        anytime & anywhere</span>
+
+
+                    <span class="text-description text-sm py-5 pl-0 lg:pl-5  text-center lg:text-left">The rise of
+                        mobile devices transforms the way
+                        we<br class="hidden lg:block" />
+                        consume information entirely and the world's most<br class="hidden lg:block" />
+                        elevant channels such as Facebook.</span>
+
+
+                </div>
+
+                <div
+                    class="w-full items-center lg:justify-between flex flex-col lg:flex-row  space-y-7 lg:space-y-0 px-0 lg:px-20">
+
+                    <div class="flex flex-row items-center lg:items-start lg:flex-col space-x-5 lg:space-x-0  space-y-0   lg:space-y-3 pt-0 lg:pt-10">
+                        <img class="w-16 h-16" src="assets/section-features/payouts.png" />
+                        <div class="flex flex-col  space-y-3">
+                            <span class="text-red-400 font-semibold text-xl">Automatic Payouts</span>
+                            <span class="text-description text-sm text-nom">Get your blood tests delivered at <br
+                                    class="hidden lg:block" />
+                                home collect a sample from the <br class="hidden lg:block" />
+                                news your blood tests.</span>
+                        </div>
+                       
+
+                    </div>
+                    <div class="flex flex-row items-center lg:items-start lg:flex-col space-x-5 lg:space-x-0  space-y-0   lg:space-y-3 pt-0 lg:pt-10">
+                        <img class="w-16 h-16" src="assets/section-features/network.png" alt="network" />
+                        <div class="flex flex-col  space-y-3">
+                        <span class="text-indigo-400 font-semibold text-xl">Network Effect</span>
+                        <span class="text-description text-sm text-nom">Get your blood tests delivered at <br
+                                class="hidden lg:block" />
+                            home collect a sample from the <br class="hidden lg:block" />
+                            news your blood tests.</span>
+                            </div>
+
+                    </div>
+                    <div class="flex flex-row items-center lg:items-start lg:flex-col space-x-5 lg:space-x-0  space-y-0   lg:space-y-3 pt-0 lg:pt-10">
+                        <img class="w-16 h-16" src="assets/section-features/bigger.png" alt="bigger" />
+                        <div class="flex flex-col  space-y-3">
+                        <span class="text-green-400 font-semibold text-xl">Bigger Rewards Method</span>
+                        <span class="text-description text-sm text-nom">Get your blood tests delivered at <br
+                                class="hidden lg:block" />
+                            home collect a sample from the <br class="hidden lg:block" />
+                            news your blood tests.</span>
+                            </div>
+
+                    </div>
+                </div>
+
+
+                <class class="w-full flex flex-col lg:flex-row space-x-0 space-y-10 lg:space-y-0 lg:space-x-20 pt-20">
+                    <img class="w-[500px]" src="./assets/section-features/bg-stacks.png" alt="stacks"/>
+                    <div class="lg:w-1/2 w-full flex flex-col space-y-5 justify-center lg:items-center">
+  
+                            <span class="text-4xl text-title font-semibold text-left">
+                                Designed & built by <br class="hidden lg:block" />
+                                the latest code<br class="hidden lg:block" />
+                                integration<br class="hidden lg:block" />
+                            </span>
+                            <span class="text-description text-sm text-left">The rise of mobile devices
+                                transforms the way we<br class="hidden lg:block" />
+                                consume information entirely and the world's most<br class="hidden lg:block" />
+                                elevant channels such as Facebook.</span>
+                            <div class="w-full flex flex-row justify-start pt-2">
+                                <a href="#"
+                                    class="text-md bg-blue-700 hover:bg-blue-800 text-center text-white rounded-full py-2 px-4 w-[170px]">Learn
+                                    more</a>
+                            </div>
+                        </div>
+
+
+                    </class>
+                </div>
+
+            </section>
+
+            <section id="pricing" class="w-full flex flex-col lg:px-20 px-0">
+                <div class="w-full flex flex-col space-y-5 items-center text-left lg:text-center justify-center pt-10">
+                    <span class="text-4xl text-title font-semibold">
+                        Why you should choose <br class="hidden lg:block" />
+                        our app
+                    </span>
+                    <span class="text-description text-sm">The rise of mobile devices transforms the way we consume
+                        information entirely <br class="hidden lg:block" />
+                        and the world's most elevant channels such as Facebook.</span>
+                </div>
+                <div class="w-full flex flex-row justify-center pt-20">
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-0 lg:gap-x-28 gap-y-10 lg:gap-y-10">
+                        <div class="flex flex-col items-center space-y-2">
+                            <img class="w-[89px]" src="assets/section-pricing/development.png" alt="development" />
+                            <span class="text-title text-lg font-semibold">
+                                App Development
+                            </span>
+                            <span class="text-description text-sm text-center">
+                                Get your blood tests delivered at <br class="hidden lg:block" />
+                                home collect a sample from the<br class="hidden lg:block" />
+                                news your blood tests.
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2 ">
+                            <img class="w-[89px]" src="assets/section-pricing/award.png" alt="award" />
+                            <span class="text-title text-lg font-semibold">
+                                10 Times Award
+                            </span>
+                            <span class="text-description text-sm text-center">
+                                Get your blood tests delivered at<br class="hidden lg:block" />
+                                home collect a sample from the<br class="hidden lg:block" />
+                                news your blood tests.
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2 ">
+                            <img class="w-[89px]" src="assets/section-pricing/cloudstorage.png" alt="cloud Storage" />
+                            <span class="text-title text-lg font-semibold">
+                                Cloud Storage
+                            </span>
+                            <span class="text-description text-sm text-center">
+                                Get your blood tests delivered at<br class="hidden lg:block" />
+                                home collect a sample from the<br class="hidden lg:block" />
+                                news your blood tests.
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2 ">
+                            <img class="w-[89px]" src="assets/section-pricing/customization.png"  alt="customization"/>
+                            <span class="text-title text-lg font-semibold">
+                                Customization
+                            </span>
+                            <span class="text-description text-sm text-center">
+                                Get your blood tests delivered at<br class="hidden lg:block" />
+                                home collect a sample from the<br class="hidden lg:block" />
+                                news your blood tests.
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2 ">
+                            <img class="w-[89px]" src="assets/section-pricing/planning.png" alt="planning" />
+                            <span class="text-title text-lg font-semibold">
+                                UX Planning
+                            </span>
+                            <span class="text-description text-sm text-center">
+                                Get your blood tests delivered at<br class="hidden lg:block" />
+                                home collect a sample from the<br class="hidden lg:block" />
+                                news your blood tests.
+                            </span>
+                        </div>
+                        <div class="flex flex-col items-center space-y-2 ">
+                            <img class="w-[89px]" src="assets/section-pricing/planning.png" alt="planning" />
+                            <span class="text-title text-lg font-semibold">
+                                Customer Support
+                            </span>
+                            <span class="text-description text-sm text-center">
+                                Get your blood tests delivered at<br class="hidden lg:block" />
+                                home collect a sample from the<br class="hidden lg:block" />
+                                news your blood tests.
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-full flex flex-col lg:flex-row space-x-0 lg:space-x-10 pt-0 lg:pt-20">
+                    <div class="lg:w-2/3 w-full flex flex-col space-y-5 ">
+                        <div class="w-full flex flex-row">
+                            <div class="w-full flex flex-col items-center lg:items-baseline  space-y-4  pt-10">
+                                <span class="text-2xl text-left text-title font-semibold">
+                                    Ultimate features <br class="hidden lg:block" />
+                                    that we built
+                                </span>
+                                <span class="text-description text-left  text-sm">The rise of mobile
+                                    devices transforms the way
+                                    we<br class="hidden lg:block" />
+                                    consume information entirely.</span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="grid grid-cols-1 items-center lg:grid-cols-2 gap-x-0 lg:gap-x-5 gap-y-10 lg:gap-y-10">
+                            <div class="flex flex-col items-center lg:items-start space-y-2">
+                                <img class="w-[89px]" src="assets/section-pricing/development.png" alt="development" />
+                                <span class="text-title text-lg font-semibold">
+                                    App Development
+                                </span>
+                                <span class="text-description text-sm ">
+                                    Get your blood tests delivered at <br class="hidden lg:block" />
+                                    home collect a sample from the<br class="hidden lg:block" />
+                                    news your blood tests.
+                                </span>
+                            </div>
+
+                            <div class="flex flex-col space-y-2  items-center lg:items-start">
+                                <img class="w-[89px]" src="assets/section-pricing/cloudstorage.png" alt="cloud Storage" />
+                                <span class="text-title text-lg font-semibold">
+                                    Cloud Storage
+                                </span>
+                                <span class="text-description text-sm ">
+                                    Get your blood tests delivered at<br class="hidden lg:block" />
+                                    home collect a sample from the<br class="hidden lg:block" />
+                                    news your blood tests.
+                                </span>
+                            </div>
+
+                            <div class="flex flex-col space-y-2  items-center lg:items-start">
+                                <img class="w-[89px]" src="assets/section-pricing/planning.png" alt="planning"/>
+                                <span class="text-title text-lg font-semibold">
+                                    UX Planning
+                                </span>
+                                <span class="text-description text-sm ">
+                                    Get your blood tests delivered at<br class="hidden lg:block" />
+                                    home collect a sample from the<br class="hidden lg:block" />
+                                    news your blood tests.
+                                </span>
+                            </div>
+                            <div class="flex flex-col space-y-2  items-center lg:items-start">
+                                <img class="w-[89px]" src="assets/section-pricing/planning.png" alt="planning" />
+                                <span class="text-title text-lg font-semibold">
+                                    Customer Support
+                                </span>
+                                <span class="text-description text-sm">
+                                    Get your blood tests delivered at<br class="hidden lg:block" />
+                                    home collect a sample from the<br class="hidden lg:block" />
+                                    news your blood tests.
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="flex flex-row justify-center lg:justify-start ">
+                            <a href="#"
+                                class="text-md bg-blue-700 hover:bg-blue-800 text-center text-white rounded-full py-2 px-4 w-[170px]">See
+                                all</a>
+                        </div>
+
+                    </div>
+                    <div class="w-full lg:w-1/2 flex flex-col ">
+                        <img src="assets/section-pricing/bg-phones.png" alt="two smartphones" class="h-[647px] pt-20" />
+                    </div>
+                </div>
+                <div
+                    class="w-full flex flex-col space-y-5 items-center text-left lg:text-center justify-center pt-5 lg:pt-20">
+                    <span class="text-2xl lg:text-3xl text-title font-semibold">
+                        Get awesome features, without<br class="hidden lg:block" />
+                        extra charges
+                    </span>
+                    <span class="text-description text-sm">The rise of mobile devices transforms the way we consume
+                        information entirely<br class="hidden lg:block" />
+                        and the world's most elevant channels such as Facebook.</span>
+                </div>
+                <div class="flex flex-row justify-center pt-10">
+                    <div class="border rounded-full py-1 px-1 ">
+                        <a href="#"
+                            class="inline-block text-md bg-blue-700 hover:bg-blue-800 text-center text-white rounded-full w-40 py-2 font-bold">Monthly</a>
+                        <a href="#" class="text-md  text-center font-medium text-description rounded-full px-10 py-2">
+                            Annually</a>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-col lg:flex-row flex-wrap justify-center items-center  lg:items-start pt-5 space-x-0 lg:space-x-5 space-y-5 lg:space-y-0">
+                    <!-- Card Pricing -->
+                    <div class="w-[317px] ">
+                        <div class=" shadow-lg flex flex-col items-center rounded-md border border-gray-300">
+                            <div class="pt-16 flex flex-row justify-center items-end space-x-1">
+                                <span class="text-title font-semibold  text-5xl ">$0</span>
+                                <span class="text-description pb-2"> / month</span>
+
+                            </div>
+                            <span class="pt-8 text-lg font-semibold text-title">Business Class</span>
+                            <span class="pt-2  text-description">For small teams or office</span>
+                            <div class="py-3"></div>
+                            <div class="w-full flex flex-col items-center bg-white">
+                                <div class="py-4"></div>
+                                <span class="text-description text-center">
+                                    Drag & Drop Builder <br class="hidden lg:block" /><br class="hidden lg:block" />
+                                    1,000's of Templates<br class="hidden lg:block" /><br class="hidden lg:block" />
+                                    Blog Support Tools<br class="hidden lg:block" /><br class="hidden lg:block" />
+                                    eCommerce Store
+                                </span>
+                                <div class="py-3"></div>
+                                <a href="#"
+                                    class="text-md bg-blue-700 hover:bg-blue-800 text-center text-white rounded-full py-3 px-4 w-[170px]">
+                                    Start free trail</a>
+                                <div class="py-2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card Pricing -->
+                    <div class="w-[317px]  flex flex-col items-center rounded-md border border-gray-300">
+                        <div class="pt-16 flex flex-row justify-center items-end space-x-1">
+                            <span class="text-title font-semibold  text-5xl ">$99</span>
+                            <span class="text-description pb-2"> / month</span>
+
+                        </div>
+                        <span class="pt-8 text-lg font-semibold text-title">Pro Master</span>
+                        <span class="pt-2  text-description">For Best opportunities</span>
+                        <div class="py-3"></div>
+                        <div class="w-full flex flex-col items-center bg-white">
+                            <div class="py-4"></div>
+                            <span class="text-description text-center">
+                                Drag & Drop Builder <br class="hidden lg:block" /><br class="hidden lg:block" />
+                                1,000's of Templates<br class="hidden lg:block" /><br class="hidden lg:block" />
+                                Blog Support Tools<br class="hidden lg:block" /><br class="hidden lg:block" />
+                                eCommerce Store
+                            </span>
+                            <div class="py-3"></div>
+                            <a href="#"
+                                class="text-md bg-blue-700 hover:bg-blue-800 text-center text-white rounded-full py-3 px-4 w-[170px]">
+                                Subscribe Now</a>
+                            <div class="py-2"></div>
+                            <a href="#" class="text-md text-blue-700  rounded-full py-3 px-4 ">
+                                Or Start 14 days trail</a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="testiminial" class="w-full flex flex-col">
+                <div class="flex flex-col lg:flex-row lg:pt-32 pt-10">
+                    <img class="w-full lg:w-2/3" src="assets/section-testimonial/wordmap.png" alt="world map" />
+                    <div class="w-full lg:w-1/2 flex flex-row">
+                        <div class="w-full flex flex-col items-center lg:items-baseline  space-y-5  pt-10">
+                            <span class="text-2xl text-center lg:text-left text-title font-semibold">
+                                Meet Client Satisfaction <br class="hidden lg:block" />
+                                by using product
+                            </span>
+                            <span class="text-description text-center lg:text-left text-sm">
+                                The rise of mobile devices transforms the way we consume.<br class="hidden lg:block" />
+                                elevant channels such as Facebook.
+                            </span>
+                            <div class="flex flex-row space-x-1">
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                                <i class="fas fa-star text-yellow-400"></i>
+                            </div>
+                            <span class="text-lg text-center lg:text-left text-title font-semibold">
+                                User friendly & Customizable
+                            </span>
+                            <span class="text-description text-center lg:text-left text-sm">
+                                Bring to the table win-win survival strategies to ensure proactive domination. At the
+                                end of the day, going forward, a new normal that has evolved from generation X is on the
+                                runway heading towards a streamlined cloud solution. User generated content in real-time
+                                will have multiple touchpoints for offshoring.
+                            </span>
+                            <div class="flex flex-row pt-5 items-center space-x-4 lg:space-x-4 w-full">
+                                <img src="assets/section-testimonial/adult.png" alt="adult"
+                                    class="inline object-cover w-20 h-20 rounded-full bg-description" />
+                                <div class="flex flex-col space-y-1">
+                                    <span class=" text-title font-semibold">Zoltan Nemeth</span>
+                                    <span class="text-sm text-description">CEO of Pixler Lab</span>
+                                </div>
+                                <div class="flex-grow"></div>
+                                <div class="flex flex-row items-center  space-x-2">
+                                    <div
+                                        class="cursor-pointer w-[30px] h-[30px] lg:w-[51px] lg:h-[51px] rounded-full border  border-background-grey flex flex-col justify-center items-center">
+                                        <i class="fas fa-arrow-left text-background-grey"></i>
+                                    </div>
+                                    <div class="inline border border-background-grey h-4 lg:h-8">
+
+                                    </div>
+                                    <div
+                                        class="cursor-pointer w-[30px] h-[30px] lg:w-[51px] lg:h-[51px] rounded-full  bg-background-grey flex flex-col justify-center items-center">
+                                        <i class="fas fa-arrow-right text-blue-800"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="faq" class="w-full flex flex-col px-0 lg:px-20 ">
+                <div class="w-full flex flex-col space-y-5 items-center text-left lg:text-center justify-center pt-5 lg:pt-20">
+                    <span class="text-3xl text-title font-semibold">
+                        Frequently asked questions
+                    </span>
+                    <p class="text-description text-sm">The rise of mobile devices transforms the way we consume
+                        information entirely<br class="hidden lg:block" />
+                        and the world's most elevant channels such as Facebook.</p>
+                </div>
+
+                <div class="flex flex-col space-y-2 pt-5 lg:pt-14">
+
+
+                    <div class="faq-item bg-[#F5F7FA] flex flex-col px-2 lg:px-7 py-5 space-y-2">
+                        <div class="title w-full flex flex-row justify-between  cursor-pointer">
+                            <span class="text-sm lg:text-lg  text-title font-semibold">How to contact with
+                                riders emergency?</span>
+                            <div class="icon">
+                                <i class="fas fa-plus text-title "></i>
+                            </div>
+
+                        </div>
+
+                        <p class="hidden text-description text-sm ">Leverage agile frameworks to provide a robust
+                            synopsis for high level overviews. Iterative approaches to corporate strategy foster
+                            collaborative thinking to further the overall value proposition. Organically grow the
+                            holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of
+                            the day, going forward, a new normal that has evolved from generation X is on the runway
+                            heading towards a streamlined cloud solution. User generated content in real-time will have
+                            multiple touchpoints for offshoring.</p>
+
+                    </div>
+                    <div class="faq-item bg-[#F5F7FA] flex flex-col px-2 lg:px-7 py-5 space-y-2">
+                        <div class="title w-full flex flex-row justify-between  cursor-pointer">
+                            <span class="text-sm lg:text-lg  text-title font-semibold">New update fixed all bug and
+                                issues</span>
+                            <div class="icon">
+                                <i class="fas fa-plus text-title "></i>
+                            </div>
+
+                        </div>
+
+                        <p class="hidden text-description text-sm ">Leverage agile frameworks to provide a robust
+                            synopsis for high level overviews. Iterative approaches to corporate strategy foster
+                            collaborative thinking to further the overall value proposition. Organically grow the
+                            holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of
+                            the day, going forward, a new normal that has evolved from generation X is on the runway
+                            heading towards a streamlined cloud solution. User generated content in real-time will have
+                            multiple touchpoints for offshoring.</p>
+
+                    </div>
+                    <div class="faq-item bg-[#F5F7FA] flex flex-col px-2 lg:px-7 py-5 space-y-2">
+                        <div class="title w-full flex flex-row justify-between  cursor-pointer">
+                            <span class="text-sm lg:text-lg  text-title font-semibold">App installation failed, how to
+                                update system information?</span>
+                            <div class="icon">
+                                <i class="fas fa-plus text-title "></i>
+                            </div>
+
+                        </div>
+
+                        <p class="hidden text-description text-sm ">Leverage agile frameworks to provide a robust
+                            synopsis for high level overviews. Iterative approaches to corporate strategy foster
+                            collaborative thinking to further the overall value proposition. Organically grow the
+                            holistic world view of disruptive innovation via workplace diversity and empowerment.
+
+                            Bring to the table win-win survival strategies to ensure proactive domination. At the end of
+                            the day, going forward, a new normal that has evolved from generation X is on the runway
+                            heading towards a streamlined cloud solution. User generated content in real-time will have
+                            multiple touchpoints for offshoring.</p>
+
+                    </div>
+
+
+                    <div class="py-5 lg:py-8"></div>
+                </div>
+            </section>
+            <section id="download" class="flex flex-col lg:flex-row pt-5 lg:pt-10">
+                <div class="w-full flex flex-col space-y-5 pt-5 px-0 lg:px-20">
+                    <span class="text-2xl lg:text-3xl text-title font-semibold">
+                        Download our App now !
+                    </span>
+                    <p class="text-description text-sm">The rise of mobile devices transforms the way we consume
+                        information entirely
+                        and the world's most elevant channels such as Facebook.</p>
+                    <div class="flex flex-row  space-x-5 pt-1 lg:pt-5 ">
+                        <img src="assets/playstore-download.png" alt="plyastore" class="w-40 lg:w-auto" />
+                        <img src="assets/apple-store-download.png" alt="apple  store" class="w-40 lg:w-auto" />
+                    </div>
+                </div>
+                <img src="assets/footer-image.png" alt="man with smartphone" class="w-[500px]" />
+            </section>
+        </div>
+        <footer class="w-full  bg-title flex flex-col items-center py-16 space-y-10">
+            <img alt="applab" src="assets/applab.png" />
+            <div class="flex flex-row space-x-5 text-white hidden lg:block">
+                <a href="#home">Home</a>
+                <a href="#features">Key Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testiminial">Testimial</a>
+                <a href="#faq">FAQ</a>
+            </div>
+
+            <div class="flex flex-row space-x-5">
+                <i class="fab text-3xl fa-facebook-f"></i>
+                <i class="fab text-3xl fa-twitter"></i>
+                <i class="fab text-3xl fa-slack-hash"></i>
+                <i class="fab text-3xl fa-github-square"></i>
+            </div>
+            <p class="pt-5 text-white text-center">Copyright© Arifur Rahman Tushar 2019. All rights reserved</p>
+        </footer>
+    </div>
+
+</body>
+<script>
+    const btnMenuMobile = document.querySelector('#menu-mobile-button');
+    const menuMobile = document.querySelector('#menu-mobile');
+
+
+    // Toggle element visibility
+    const toggleElement = function (elem) {
+        elem.classList.toggle('hidden');
+
+    };
+
+    const hideMenu = function (elem) {
+        elem.classList.add('hidden');
+
+    };
+
+    const activeMenu = function (elem) {
+        elem.classList.contains('hidden');
+
+    };
+
+    btnMenuMobile.addEventListener('click', function (event) {
+        event.stopPropagation();
+        toggleElement(menuMobile)
+    })
+    document.querySelector('body').addEventListener('click', function () {
+        hideMenu(menuMobile);
+    })
+
+
+
+    document.querySelectorAll(".faq-item .title").forEach(el => {
+        el.addEventListener('click', function (event) {
+            const card = el.parentElement;
+            toggleElement(card.querySelector("p"));
+            toggleElement(card.querySelector(".icon"));
+        });
+    })
+
+
+   window.addEventListener('scroll', function (){
+       const buttonGoToHome = document.querySelector("#button-go-to-home");
+       if(window.pageYOffset > 400){
+           buttonGoToHome.classList.remove('hidden');
+       }else{
+        buttonGoToHome.classList.add('hidden');
+       }
+   })
+</script>
+
+</html>
